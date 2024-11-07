@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanishkanth | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- <img src="assets/moon.png" id="icon"> -->
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Kanishkanth</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    <hr style="border: 1px solid rgb(101, 101, 101);">
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/dp.png" alt="kanish profile pic" style="border-radius: 50%;" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hey Everyone! This is</p>
+        <h1 class="title">Kanishkanth</h1>
+        <p class="section__text__p2">Web Design and Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='contact.html'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/kanish-k'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/kanishkanth02'"
+          />
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profice-pic-2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Area of Interest</h3>
+              <p>Frontend Development</p>
+              <p>UI/UX Design</p>
+              <p>Data Analytics</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E Computer Science Engineering - Sri Shakthi Institute of Engineering & Technology</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                Hello People,
+                This is Kanishkanth! I am a Self motivated learner with a strong foundation in front-end development and a
+                specialization in data analytics. Known for being a quick learner, I adapt seamlessly to
+                new technologies, always eager to explore innovative solutions. My skill set includes
+                creating engaging web interfaces and deriving actionable insights from data, making me
+                a versatile asset in tech-driven environments.
+                
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      /> -->
+    </section>
+    <hr>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML & CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python for Data Analytics</h3>
+                  <p>Basics</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Canva - Web Design</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Figma - UI/UX</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PowerBi - Data Visualization</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>LinkedIn - Digital Marketing</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <section class="sub-section-alternative" id="projects" >
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Projects</h1>
+      <div class="project-container" style="display: flex;flex-wrap: wrap;justify-content: center;">
+          <div class="project-card">
+              <img src="./assets/project-1.png" alt="" class="project-images">
+              <h3>REDSTORE - Clothing Website</h3>
+              <p class="subtext">Developed Completely using HTML, CSS and JS. </p>
+              <hr>
+              <p class="subtext">
+                  <a href="https://github.com/Kanishkanth02/Clothing-Website---Redstore" class="project-link">View here</a>
+              </p>
+          </div>
+          <div class="project-card">
+              <img src="./assets/project-2.png" alt="" class="project-images">
+              <h3>Stay & Savour - Hotel Management Website</h3>
+              <p class="subtext">Developed Completely using HTML, CSS and JS.</p>
+              <hr>
+              <p class="subtext">
+                  <a href="https://github.com/kanishkanth02" class="project-link">View here</a>
+              </p>
+          </div>
+          <div class="project-card">
+              <img src="./assets/project-3.png" alt="" class="project-images">
+              <h3>StarBucks - Landing Page</h3>
+              <p class="subtext">Landing page developed using HTML, CSS and JS. </p>
+              <hr>
+              <p class="subtext">
+                  <a href="https://github.com/Kanishkanth02/Starbucks-Landing-Page" class="project-link">View here</a>
+              </p>
+          </div>
+          <br>
+          <div class="project-card">
+              <img src="./assets/project-4.png" alt="" class="project-images">
+              <h3>Zepto - Sales Analysis Dashboard</h3>
+              <p class="subtext">Devloped using PowerBI</p>
+              <hr>
+              <p class="subtext">
+                  <a href="https://github.com/Kanishkanth02/Zepto-Sales-Analysis---Power-BI" class="project-link">View here</a>
+              </p>
+          </div>
+          <div class="project-card">
+              <img src="./assets/project-5.png" alt="" class="project-images">
+              <h3>Amazon - Sales Analysis Dashboard</h3>
+              <p class="subtext">Devloped using PowerBI</p>
+              <hr>
+              <p class="subtext">
+                  <a href="https://github.com/Kanishkanth02/Amazon-Sales-Analysis" class="project-link">View here</a>
+              </p>
+          </div>
+      </div>
+  </section>
+   <hr>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="contact.html">kanishkanth17@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/kanish-k">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Designed by Kanishkanth. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
